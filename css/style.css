@@ -1,2 +1,40 @@
-p {color: turquoise;
+/* THIS IS A GLOBAL STYLE, meaning it will apply to everything under that tag */
+
+body {color: #3E4147;
+font-family: "Arvo", serif;}
+
+
+/* THESE ARE OTHER CSS EDITS */
+
+h1 {color: #CC4425;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: "600";
+  font-family: 'Oswald', sans-serif;
 }
+
+h2 {color: black;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+
+b {color: darkgray;
+  font-style: "italic";
+  font-size: 14px;
+  text-decoration: "underline";
+}
+
+
+p {color: #3E4147;
+  font-size: 18px;
+  font-family: "Arvo", serif;
+}
+
+img {max-width: 800px;
+  max-height: "inherit";
+
+}
+
+/* to add fornts go to google fonts and then make sure to add the css link into the head of of he html and change the css code */
