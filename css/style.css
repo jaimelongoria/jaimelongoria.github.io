@@ -1,45 +1,200 @@
+/* This is CSS for my Nav Bar */
 
-body {background-color: #f6f1ed
+body, html
+		{
+			padding: 0;
+			margin: 0px;
+			font-family: 'Roboto', sans-serif;
+		}
+		main
+		{
+			width: 100%;
+			display: inline-block;
+		}
+		.navbar
+		{
+			width: 100%;
+			background: gray;
+
+border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+			margin: 0px;
+
+		}
+		.navbar > ul
+		{
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+		}
+			.navbar > ul li
+			{
+				display: inline-block;
+			}
+			.navbar > ul li a
+			{
+				text-decoration: none;
+				color: #fff;
+				width: 120px;
+				display: inline-block;
+				text-align: center;
+				padding: 20px 0;
+				font-weight: bold;
+				position: relative;
+			}
+			.navbar > ul li a::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: -2px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    transition: 0.5s;
+}
+	.navbar > ul li a:hover::before
+	{
+		width: 100%;
+	}
+
+
+/* This is the CSS for how images and text appear on my page */
+body {max-width: 800px;
+    margin: auto;
 }
 
-h1 {color: #30231d;
-	font-family: 'Merriweather Sans', sans-serif;
-	font-size: 66px;
-	font-weight: 800;
+h1 {
+	color: #2B2B2B;
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	font-weight: 300;
 	line-height: 78px;
-	letter-spacing: -4px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
+	max-width: 800px;
+	position: relative;
 }
 
-h2 {color: #30231d;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 500;
-  font-size: 25px;
+h2:after {
+	background: #E6324B;
+	content: '';
+	display: block;
+	height: 6px;
+	width: 600px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
-b {color: #30231d;
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
-  text-transform: uppercase;
+h2 {color: #353634;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 200;
+  font-size: 23px;
+	max-width: 800px;
+	position: relative;
 }
 
-p {color: #30231d;
-	font-family: 'Merriweather';
-	font-size: 18px;
+p {color: #353634;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
 	font-weight: 500;
-	line-height: 30px;
-	margin-bottom: 30px;
+	line-height: 36px;
+	margin-bottom: 48px;
 	max-width: 800px;
 }
 
-a {color: #cc3914;
+a {
+	color: #E6324B;	font-style: italic;
 }
 
-a:hover {color: #50413c;
+a:hover {
+	color: #353634;
+}
+
+.headshot{ border-radius: 50%;
+	height: 70px;
+}
+
+.byline {color: black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	font-weight: 700;
+	max-width: 700px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	left: 90px;
+	top: -70px;
+}
+
+.job {color: black;
+	font-family: font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+	font-weight: 500;
+	margin-top: -15px;
+	margin-bottom: 0px;
+	position: relative;
+	left: 90px;
+	top: -70px;
+}
+
+.date {color: gray;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	font-weight: 200;
+	max-width: 700px;
+	margin-top: -40px;
+	margin-bottom: 0px;
 }
 
 img {max-width: 800px;
-  max-height: 'inherit';
+  max-height: "inherit";
 }
 
+figure {margin-bottom:45px;
+	position: relative;
+	left: -40px
+}
+
+figcaption {color: #353634;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	position: relative;
+	left: 40px;
+}
+
+.imgcred {color: gray;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 400px;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+blockquote {color: gray;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+margin-bottom: 45px;
+max-width: 650px;
+position: relative;
+}
+
+/*this is for my emojis*/
+
+.emo {
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	margin:0;
+	padding:0;
+	text-align:center;
+
+	font-size:700%;
+
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+}
 /* to add fornts go to google fonts and then make sure to add the css link into the head of of he html and change the css code */
