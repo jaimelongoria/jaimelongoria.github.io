@@ -1,39 +1,29 @@
 /* This is CSS for my Nav Bar */
 
 body, html
-<<<<<<< HEAD
 		{	height: 100%;
 			padding: 0;
 			margin: 0;
-=======
-		{
 			padding: 0;
 			margin: 0px;
->>>>>>> cf3ff43986ba8d287d826be822c810568aaa26bd
 			font-family: 'Roboto', sans-serif;
 		}
 		main
 		{
 			width: 100%;
 			display: inline-block;
-<<<<<<< HEAD
 			position: absolute;
-=======
->>>>>>> cf3ff43986ba8d287d826be822c810568aaa26bd
 		}
 		.navbar
 		{
 			width: 100%;
-<<<<<<< HEAD
 			background: "transparent";
 
 border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);
-=======
 			background: gray;
 
 border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);
 	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
->>>>>>> cf3ff43986ba8d287d826be822c810568aaa26bd
 			margin: 0px;
 
 		}
@@ -50,28 +40,22 @@ border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);
 			.navbar > ul li a
 			{
 				text-decoration: none;
-<<<<<<< HEAD
 				text-transform: uppercase;
 				color: white;
-=======
 				color: #fff;
->>>>>>> cf3ff43986ba8d287d826be822c810568aaa26bd
 				width: 120px;
 				display: inline-block;
 				text-align: center;
 				padding: 20px 0;
 				font-weight: bold;
 				position: relative;
-<<<<<<< HEAD
 				text-shadow: 0px 0px 10px black;
 			}
 			.navbar > ul li a::before {
     background: black none repeat scroll 0 0;
-=======
 			}
 			.navbar > ul li a::before {
     background: #fff none repeat scroll 0 0;
->>>>>>> cf3ff43986ba8d287d826be822c810568aaa26bd
     bottom: -2px;
     content: "";
     height: 3px;
@@ -79,7 +63,6 @@ border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);
     position: absolute;
     width: 0%;
     transition: 0.5s;
-<<<<<<< HEAD
 }
 	.navbar > ul li a:hover::before
 	{
@@ -248,152 +231,4 @@ position: relative;
 
 	-webkit-transform:translateY(-50%);
 	transform:translateY(-50%);
-=======
->>>>>>> cf3ff43986ba8d287d826be822c810568aaa26bd
 }
-	.navbar > ul li a:hover::before
-	{
-		width: 100%;
-	}
-
-
-/* This is the CSS for how images and text appear on my page */
-body {max-width: 800px;
-    margin: auto;
-}
-
-h1 {
-	color: #2B2B2B;
-	font-family: 'Roboto', sans-serif;
-	font-size: 70px;
-	font-weight: 300;
-	line-height: 78px;
-	margin-bottom: 5px;
-	max-width: 800px;
-	position: relative;
-}
-
-h2:after {
-	background: #E6324B;
-	content: '';
-	display: block;
-	height: 6px;
-	width: 600px;
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
-
-h2 {color: #353634;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 200;
-  font-size: 23px;
-	max-width: 800px;
-	position: relative;
-}
-
-p {color: #353634;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 36px;
-	margin-bottom: 48px;
-	max-width: 800px;
-}
-
-a {
-	color: #E6324B;	font-style: italic;
-}
-
-a:hover {
-	color: #353634;
-}
-
-.headshot{ border-radius: 50%;
-	height: 70px;
-}
-
-.byline {color: black;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 15px;
-	font-weight: 700;
-	max-width: 700px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	position: relative;
-	left: 90px;
-	top: -70px;
-}
-
-.job {color: black;
-	font-family: font-family: 'Libre Baskerville', serif;
-	font-size: 12px;
-	font-weight: 500;
-	margin-top: -15px;
-	margin-bottom: 0px;
-	position: relative;
-	left: 90px;
-	top: -70px;
-}
-
-.date {color: gray;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 15px;
-	font-weight: 200;
-	max-width: 700px;
-	margin-top: -40px;
-	margin-bottom: 0px;
-}
-
-img {max-width: 800px;
-  max-height: "inherit";
-}
-
-figure {margin-bottom:45px;
-	position: relative;
-	left: -40px
-}
-
-figcaption {color: #353634;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	position: relative;
-	left: 40px;
-}
-
-.imgcred {color: gray;
-	font-family: 'Roboto', sans-serif;
-	position: relative;
-	left: 400px;
-	font-size: 10px;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-
-blockquote {color: gray;
-font-family: 'Roboto', sans-serif;
-font-size: 30px;
-font-weight: 700;
-line-height: 35px;
-margin-bottom: 45px;
-max-width: 650px;
-position: relative;
-}
-
-/*this is for my emojis*/
-
-.emo {
-	position:absolute;
-	top:50%;
-	left:0;
-	right:0;
-	margin:0;
-	padding:0;
-	text-align:center;
-
-	font-size:700%;
-
-	-webkit-transform:translateY(-50%);
-	transform:translateY(-50%);
-}
-}
-/* to add fornts go to google fonts and then make sure to add the css link into the head of of he html and change the css code */
