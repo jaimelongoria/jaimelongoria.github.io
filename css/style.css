@@ -147,11 +147,17 @@ p {color: #353634;
 }
 
 a {
-	color: white;
+	color: #808080;
 }
 
 a:hover {
 	color: #C8C8C8;
+}
+
+#bylink {color: white;
+}
+
+#bylink:hover {color: #C8C8C8;
 }
 
 .photo {max-width: 800px;
