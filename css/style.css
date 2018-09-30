@@ -147,11 +147,11 @@ p {color: #353634;
 }
 
 a {
-	color: #E6324B;	font-style: italic;
+	color: white;
 }
 
 a:hover {
-	color: #353634;
+	color: #C8C8C8;
 }
 
 .photo {max-width: 800px;
