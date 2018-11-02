@@ -166,7 +166,7 @@ a:hover {
 
 figure {margin-bottom:45px;
 	position: relative;
-	left: -40px
+	left: -40px;
 }
 
 figcaption {color: #C8C8C8;
@@ -228,4 +228,59 @@ position: relative;
 
 	-webkit-transform:translateY(-50%);
 	transform:translateY(-50%);
+}
+
+
+
+
+
+/* MEDIA QUERIES. The syntax for media queries looks like this.
+ The first part " @media (max-width: 700px) { " is setting a condition - in this case that the browser should be smaller than 500px - and when that condition is true the CSS inside gets activated. So that means that if the browser is smaller than 500 px of width then make the body background red. */
+
+@media (max-width: 700px) {
+ / *Now after that add some styles that will make the page look better at narrower widths and mobile devices.*/
+ li {
+   display: block;
+   padding: 5px;
+ }
+ /*navigation links should sit on top of each other rather than inline*/
+ nav ul li a/*links in nav menu*/
+ {
+   font-size: 12px;
+ }
+ /*font should be smaller when the browser is small* /
+ .display/*header h1 story title*/
+ {
+   font-size: 36px;
+ }
+ .summary
+ {
+   font-size: 18px;
+   margin: 0 auto;
+ }
+ h1, h2, h3, h4, h5
+ {
+   font-size: 14px;
+ }
+
+ .bgtxt {
+   font-size: 16px;
+ }
+
+ p {
+   font-size: 16px;
+ }
+ figcaption {
+   font-size: 14px;
+ }
+ blockquote {
+   font-size: 18px;
+ }
+ /*div container for the 3 images and captions, change flex direction to column instead of row
+ so they images align vertical in order up to down */
+ .img-wrapper {
+ display: flex;
+ / *flex-wrap: wrap;  Delete this one after testing mediaqueries for images*/
+ flex-direction: column;/*align vertically image after image*/
+ justify-content: space-between;
 }
